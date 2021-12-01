@@ -1,5 +1,12 @@
 # Web-Basics
-This Repository contents basic Web Intro
+This Repository contents basic Web Intro-->
+WHAT IS HTML?
+● HTML stands for Hyper Text Markup Language.
+● HTML describes the structure of web pages using markup.
+● HTML is used to provide the content(words, images, audio, video, and so on) to the web
+pages.
+● HTML is a tag based language. They are defined within the angle brackets.
+● HTML file can be created using a text editor.
 
 [web-basics.pdf](https://github.com/SrijanSamridh/Web-Basics/files/7613865/0000000000000089.pdf)
 
