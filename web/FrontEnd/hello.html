@@ -7,40 +7,51 @@
             <title>Front-End Demo</title>
         </head>
 
-        <body style="color:green">
+        <body style="color:green; text-align:center;" >
 
 
 
-        <h1>&nbsp; Five Tips For Front-End Development</h1><hr>
+        <h1>&nbsp; STUDENT REGISTRATION FORM</h1><hr>
         <dd>
-            <p>
-                This is a food, travel, experiences & lifestyle content platform.<br>
-                we are a digital nomad and the entire world is our workplace, classroom, playground, and our home.<br>
-                Discover intriguing and exciting things to do in your neighborhood and around the world.<br>
-                We discover new places and possibilities and try to spread the joy of wanderlust.<br>
-                If you’re inspired just a little to pack your bags and head out for the weekend or discover the joy of a new dessert in your city - our job is done!
-            </p>
 
-
-        <!--         Ordered List --we use-- "<ol> Normal Text </ol>>"-->
-
-        <ol type="1" >                <!-- Type Attribute takes all counting methods like: "A", "a", "1", "i", "I"-->
-            <li><h3>Hey there it's me Heading!!</h3></li>
-                <p>One of the most important part of the Blog.</p>
-
-            <li><h4>Always Be Curious</h4></li>
-                <p>Here we are using Nested list--</p>
-                <ul type="square">      <!-- Type Attribute takes Three bulletin methods like: "disc", "circle", "square", "none"-->
-                    <li><a href="https://srijansamridh.blogspot.com/" target="_blank">WeTalk's</a></li>
-                    <li>CSS Weekly</li>
-                    <li>JavaScript Weekly</li>
-                    <li>Web Design Weekly</li>
-                    <li>Codrops</li>
-                    <li>ShopTalk Podcast</li>
-                </ul>
-
-        </ol>
+            <!-- Form Sections   -->
+            <form action="http://www.srijansamridh.blogspot.com" target="_blank" autocomplete="on" method="post">
+                <table>
+                <label><big><i><u>COMMENTS FORM</u></i></big><br></label>
+                <tr>
+                    <label for="name">Your name* &nbsp;:&nbsp;&nbsp;</label>
+                    <input type="text" placeholder="Enter name here" id="name" required/>
+                </tr>
+                <br>
+                <tr>
+                    <label for="email">Email ID* &emsp;:&nbsp;&nbsp;</label>
+                    <input type="email" placeholder="@gmail.com" id="email" required/>
+                </tr>
+                <br>
+                <tr>
+                    <label for="phone">Mobile Number* &emsp;&emsp;&emsp;:&nbsp;&nbsp;</label>
+                    <input type="tel" placeholder="Age" id="phone" min="0" max="9" required/>
+                </tr>
+                <br>
+                <tr>
+                    <label for="age">Age* &emsp;&emsp;&emsp;:&nbsp;&nbsp;</label>
+                    <input type="number" placeholder="Age" id="age" min="1" max="100" required/>
+                </tr>
+                <br>
+                <tr>
+                    <label for="feedback">FeedBack &emsp;:&nbsp; </label>
+                    Improve<input type="range" id="feedback" required min="10" max="100" step="10">&nbsp;Good<br>
+                </tr>
+                <br>
+                <br>
+                <div>
+                    <h4>Submit to Visit the Blog Home Page--</h4>
+                    <input type="submit" style="background-color:orange">
+                </div>
+                </table>
+            </form>
         </dd>
+
         </body>
 
     </html>
